@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="130.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vn.NTS_SceneController">
+   <children>
+      <TextField fx:id="txtNum" layoutX="25.0" layoutY="16.0" onAction="#btSpeak_click" prefHeight="30.0" prefWidth="225.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="325.0">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding></TextField>
+      <Label fx:id="lbResult" layoutX="25.0" layoutY="53.0" prefHeight="30.0" prefWidth="450.0" style="-fx-background-color: FFFCA8;" textFill="#6f6f6f" textOverrun="CENTER_ELLIPSIS" visible="false" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding></Label>
+      <Label fx:id="lbNumber" layoutX="290.0" layoutY="16.0" prefHeight="30.0" prefWidth="309.0" style="-fx-background-color: B0B0B0;" textOverrun="CENTER_ELLIPSIS" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="25.0">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </Label>
+      <Button fx:id="btSpeak" layoutX="278.0" layoutY="94.0" mnemonicParsing="false" onAction="#btSpeak_click" text="Đọc">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font></Button>
+      <TextField fx:id="txtResult" editable="false" layoutX="25.0" layoutY="54.0" prefHeight="25.0" prefWidth="550.0" style="-fx-background-color: FFFCA8;" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
