@@ -68,7 +68,7 @@ public class NTS_SceneController implements Initializable {
             }
         };
         
-        if (!isSpeaking) {
+        if (!isSpeaking && txtResult.getText().length() > 0) {
             Thread thread = new Thread(task);
             thread.start();
         }
