@@ -33,6 +33,7 @@ public class NumToSpeech {
     
     public static String getText(String source) {
         if (validString(source)) {
+            //Ket qua tra ve sau khi chuyen tu so sang chuoi la mot mang cac chuoi
             List<String> textList = NumToText(source);
             String result = "";
             if (textList.size() > 0) {
@@ -45,16 +46,19 @@ public class NumToSpeech {
     }
     
     private static Boolean validString(String source) {
-        return true;
+        //Kiem tra chuoi nhap vao la chuoi so hop le va do dai > 0
+        return source.matches("^\\d+$") && (source.length() > 0);
     }
     
     public static String displayString(String source) {
+        //Tach chuoi so thanh cac bo 3 de hien thi
         List<String> listSring = StringToArray3(source);
         Collections.reverse(listSring);
         return String.join(",", listSring);
     }
     
     private static List<String> StringToArray3(String source) {
+        //Tach chuoi so thanh cac bo 3 de xu ly chuyen doi
         List<String> temp = new ArrayList<String>();
         Integer n = 0;
         
@@ -69,6 +73,7 @@ public class NumToSpeech {
     }
     
     private static List<String> NumToText(String source) {
+        //Xu ly theo tung bo 9 de tuan hang don vi Ty
         List<String> textFromNum = Go9ToText(source);
         return textFromNum;
     }
@@ -82,6 +87,8 @@ public class NumToSpeech {
             Integer idx = (i==0) ? 3 : i%3;
             String level2OfNum = "";
             
+            //Don vi cap do 2 cua cac chu so la Ty, Trieu, Nghin
+            //idx dung de xac dinh vi tri cua bo 3 dang xet trong bo 9
             if (textOf3.size() <= 0 && (idx % 3 != 0)) {
                 level2OfNum = "";
             } else {
@@ -168,11 +175,5 @@ public class NumToSpeech {
         catch (IOException e) {
             throw new RuntimeException(e);
         }
-        
-//        Alert alert = new Alert(AlertType.ERROR);
-//                        alert.setTitle("Lỗi");
-//                        alert.setHeaderText("Lỗi mạng");
-//                        alert.setContentText("Vui lòng kiểm tra lại kết nối mạng!");
-//                        alert.showAndWait();
     }
 }

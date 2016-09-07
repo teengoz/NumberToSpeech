@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="NumberToSpeech.jar" size="31749" download="eager" />
+    <jar href="NumberToSpeech.jar" size="32164" download="eager" />
     <jar href="lib\jl1.0.1.jar" size="105363" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="NumberToSpeech" >

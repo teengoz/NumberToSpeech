@@ -17,6 +17,8 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
@@ -80,8 +82,12 @@ public class NTS_SceneController implements Initializable {
         ImageView ivSpeaker = new ImageView(speakerImage);
         ivSpeaker.setFitHeight(16);
         ivSpeaker.setFitWidth(16);
+        String strBtSpeak = state ? "Đọc" : " Đang đọc";
         btSpeak.setGraphic(ivSpeaker);
+        btSpeak.setText(strBtSpeak);
         btSpeak.setDisable(!state);
+        txtNum.setDisable(!state);
+        txtNum.requestFocus();
     }
     
     @Override
@@ -89,21 +95,39 @@ public class NTS_SceneController implements Initializable {
         // TODO
         txtResult.setStyle("-fx-text-inner-color: #6f6f6f;-fx-background-color:#FFFCA8");
         changeStateOfBtSpeak(true);
-        
+
         txtNum.textProperty().addListener((observable, oldValue, newValue) -> {
-            if (!newValue.matches("\\d*")) {
-                newValue = newValue.replaceAll("[^\\d]", "");
-                txtNum.setText(newValue);
+            if (newValue.length() > 0) {
+                //Xu ly khi nhap chuoi so co chua ky tu khac so
+                if (!newValue.matches("\\d*")) {
+                    newValue = newValue.replaceAll("[^\\d]", "");
+                    txtNum.setText(newValue);
+                }
+                
+                //Xu ly chu so dau tien cua chuoi la 0
+                if (newValue.matches("^0+.*")) {
+                    newValue = newValue.replaceAll("^0+", "");
+                    txtNum.setText(newValue);
+                }
+                
+                //Gioi han do dai chu so duoc phep nhap, gioi han boi do dai textfield
+                if (newValue.length() > 30) {
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("Cảnh báo");
+                    alert.setHeaderText("Vượt độ dài cho phép.");
+                    alert.setContentText("Chỉ được nhập số có không quá 30 chữ số!");
+                    alert.showAndWait();
+                    newValue = newValue.substring(0, 30);
+                    txtNum.setText(newValue);
+                }
+                
+                String sourceNumber = txtNum.getText();
+                if (sourceNumber.length() > 0) {
+                    String textResult = NumToSpeech.getText(sourceNumber);
+                    lbNumber.setText(NumToSpeech.displayString(sourceNumber));            
+                    txtResult.setText(textResult);
+                }
             }
-            
-            if (newValue.matches("^0+.*")) {
-                newValue = newValue.replaceAll("^0+", "");
-                txtNum.setText(newValue);
-            }
-            
-            String textResult = NumToSpeech.getText(newValue);
-            lbNumber.setText(NumToSpeech.displayString(newValue));            
-            txtResult.setText(textResult);
         });
     }    
     

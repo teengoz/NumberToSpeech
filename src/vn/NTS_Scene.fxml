@@ -35,7 +35,7 @@
             <Insets left="15.0" right="15.0" />
          </padding>
       </Label>
-      <Button fx:id="btSpeak" layoutX="278.0" layoutY="94.0" mnemonicParsing="false" onAction="#btSpeak_click" text="Đọc">
+      <Button fx:id="btSpeak" layoutX="278.0" layoutY="94.0" mnemonicParsing="false" onAction="#btSpeak_click" text="Đọc" AnchorPane.leftAnchor="245.0" AnchorPane.rightAnchor="245.0">
          <font>
             <Font name="Times New Roman" size="15.0" />
          </font></Button>
