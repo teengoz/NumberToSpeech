@@ -16,8 +16,6 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 import javazoom.jl.decoder.JavaLayerException;
 import javazoom.jl.player.Player;
 
@@ -165,11 +163,16 @@ public class NumToSpeech {
         try {
             HttpURLConnection httpcon = (HttpURLConnection) url.openConnection();
             httpcon.addRequestProperty("User-Agent", "Mozilla/4.0");
-
             return httpcon.getInputStream();
-        } catch (IOException e) {
-            String error = e.toString();
+        }
+        catch (IOException e) {
             throw new RuntimeException(e);
         }
+        
+//        Alert alert = new Alert(AlertType.ERROR);
+//                        alert.setTitle("Lỗi");
+//                        alert.setHeaderText("Lỗi mạng");
+//                        alert.setContentText("Vui lòng kiểm tra lại kết nối mạng!");
+//                        alert.showAndWait();
     }
 }
