@@ -8,8 +8,11 @@ package vn;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
+import java.net.InetSocketAddress;
 import java.net.MalformedURLException;
+import java.net.Socket;
 import java.net.URL;
+import java.net.UnknownHostException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -45,7 +48,7 @@ public class NTS_SceneController implements Initializable {
     private Boolean isSpeaking = false;
     
     @FXML
-    private void btSpeak_click(ActionEvent event) throws FileNotFoundException, JavaLayerException, IOException {
+    private void btSpeak_click(ActionEvent event) throws FileNotFoundException, JavaLayerException, IOException, InterruptedException {
         Runnable task = () -> {
             try {
                 Platform.runLater(new Runnable() {
@@ -54,7 +57,19 @@ public class NTS_SceneController implements Initializable {
                     }
                 });
                 isSpeaking = true;
-                NumToSpeech.speakNumber(txtResult.getText());
+                if (checkInternetConnection()) {
+                    NumToSpeech.speakNumber(txtResult.getText());
+                } else {
+                    Platform.runLater(new Runnable() {
+                    @Override public void run() {
+                        Alert alert = new Alert(AlertType.ERROR);
+                        alert.setTitle("Lỗi");
+                        alert.setHeaderText("Lỗi kết nối.");
+                        alert.setContentText("Vui lòng kiểm tra lại kết nối mạng!");
+                        alert.showAndWait();
+                    }
+                });
+                }
                 isSpeaking = false;
                 Platform.runLater(new Runnable() {
                     @Override public void run() {
@@ -67,9 +82,10 @@ public class NTS_SceneController implements Initializable {
                 Logger.getLogger(NTS_SceneController.class.getName()).log(Level.SEVERE, null, ex);
             } catch (UnsupportedEncodingException ex) {
                 Logger.getLogger(NTS_SceneController.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(NTS_SceneController.class.getName()).log(Level.SEVERE, null, ex);
             }
         };
-        
         if (!isSpeaking && txtResult.getText().length() > 0) {
             Thread thread = new Thread(task);
             thread.start();
@@ -88,6 +104,21 @@ public class NTS_SceneController implements Initializable {
         btSpeak.setDisable(!state);
         txtNum.setDisable(!state);
         txtNum.requestFocus();
+    }
+    
+    private Boolean checkInternetConnection() throws IOException{
+        try(Socket socket = new Socket())
+            {
+                int port = 80;
+                InetSocketAddress socketAddress = new InetSocketAddress("google.com", 80);
+                socket.connect(socketAddress, 3000);
+
+                return true;
+            }
+            catch(UnknownHostException unknownHost)
+            {
+                return false;
+            }
     }
     
     @Override
