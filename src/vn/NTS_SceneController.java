@@ -57,7 +57,7 @@ public class NTS_SceneController implements Initializable {
                     }
                 });
                 isSpeaking = true;
-                if (checkInternetConnection()) {
+                if (checkInternetConnection("google.com")) {
                     NumToSpeech.speakNumber(txtResult.getText());
                 } else {
                     Platform.runLater(new Runnable() {
@@ -88,6 +88,7 @@ public class NTS_SceneController implements Initializable {
         };
         if (!isSpeaking && txtResult.getText().length() > 0) {
             Thread thread = new Thread(task);
+            thread.setDaemon(true);
             thread.start();
         }
     }
@@ -106,19 +107,17 @@ public class NTS_SceneController implements Initializable {
         txtNum.requestFocus();
     }
     
-    private Boolean checkInternetConnection() throws IOException{
-        try(Socket socket = new Socket())
-            {
-                int port = 80;
-                InetSocketAddress socketAddress = new InetSocketAddress("google.com", 80);
-                socket.connect(socketAddress, 3000);
-
-                return true;
-            }
-            catch(UnknownHostException unknownHost)
-            {
-                return false;
-            }
+    private Boolean checkInternetConnection(String strUrl) throws IOException{
+        try(Socket socket = new Socket()) {
+            int port = 80;
+            InetSocketAddress socketAddress = new InetSocketAddress(strUrl, 80);
+            socket.connect(socketAddress, 3000);
+            
+            return true;
+        }
+        catch(UnknownHostException unknownHost) {
+            return false;
+        }
     }
     
     @Override
@@ -158,6 +157,9 @@ public class NTS_SceneController implements Initializable {
                     lbNumber.setText(NumToSpeech.displayString(sourceNumber));            
                     txtResult.setText(textResult);
                 }
+            } else {
+                lbNumber.setText("");
+                txtResult.clear();
             }
         });
     }    

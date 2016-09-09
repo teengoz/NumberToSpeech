@@ -25,6 +25,7 @@ public class NumberToSpeech extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
+        stage.setWidth(605);
         stage.setTitle("Chuyển số thành chữ");
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/img/speaker_black.png")));
         stage.setResizable(false);

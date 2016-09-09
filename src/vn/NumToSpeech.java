@@ -11,6 +11,7 @@ import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.SocketTimeoutException;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -160,20 +161,27 @@ public class NumToSpeech {
         String encodedText = URLEncoder.encode(text, "UTF-8");
         String req = "https://code.responsivevoice.org/getvoice.php?t=" + encodedText + "&tl=vi&sv=&vn=&pitch=0.5&rate=0.5&vol=1";
         InputStream input = read(new URL(req));
-        BufferedInputStream bis = new BufferedInputStream(input);
-        System.out.println(req);
-        Player player = new Player(bis);
-        player.play();
+        if (input != null) {
+            Player player = new Player(input);
+            player.play();
+        } else {
+            return;
+        }
     }
     
     private static InputStream read(URL url) {
+        InputStream result = null;
         try {
             HttpURLConnection httpcon = (HttpURLConnection) url.openConnection();
+            //Dat gia tri time out cho ket noi
+            httpcon.setConnectTimeout(500);
+            httpcon.setReadTimeout(10000);
             httpcon.addRequestProperty("User-Agent", "Mozilla/4.0");
-            return httpcon.getInputStream();
+            result = httpcon.getInputStream();
         }
         catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());
         }
+        return result;
     }
 }
