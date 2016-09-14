@@ -132,6 +132,12 @@ public class NTS_SceneController implements Initializable {
                 if (!newValue.matches("\\d*")) {
                     newValue = newValue.replaceAll("[^\\d]", "");
                     txtNum.setText(newValue);
+                    Alert alert = new Alert(AlertType.WARNING);
+                    alert.setTitle("Cảnh báo");
+                    alert.setHeaderText("Ậy, sai rồi. Đừng nhập ẩu như vậy chứ!");
+                    alert.setContentText("Bạn chỉ được nhập số nguyên dương. Nhập không đúng thì tui không có xử lý được đâu nha!");
+                    alert.showAndWait();
+                    newValue = newValue.substring(0, 30);
                 }
                 
                 //Xu ly chu so dau tien cua chuoi la 0
@@ -144,8 +150,8 @@ public class NTS_SceneController implements Initializable {
                 if (newValue.length() > 30) {
                     Alert alert = new Alert(AlertType.WARNING);
                     alert.setTitle("Cảnh báo");
-                    alert.setHeaderText("Vượt độ dài cho phép.");
-                    alert.setContentText("Chỉ được nhập số có không quá 30 chữ số!");
+                    alert.setHeaderText("Ậy, từ từ nào.");
+                    alert.setContentText("Bạn chỉ được nhập số có không quá 30 chữ số thôi nhé!");
                     alert.showAndWait();
                     newValue = newValue.substring(0, 30);
                     txtNum.setText(newValue);

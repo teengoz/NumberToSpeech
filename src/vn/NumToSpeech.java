@@ -122,7 +122,7 @@ public class NumToSpeech {
                 textFromGo3.add(textNum[hundreds]);
                 textFromGo3.add(textLevel1[2]); //trăm
                 if (tens == 0 && units !=0) {
-                    textFromGo3.add(specialWord0x); //linh
+                    textFromGo3.add(specialWord0x); //lẻ
                 }
             }
             /**********************/
