@@ -105,6 +105,7 @@ public class NumToSpeech {
     }
     
     private static List<String> Go3ToText(String strGo3) {
+        //Xu ly cho moi bo 3 so
         List<String> textFromGo3 = new ArrayList<>();
         
         Integer numGo3 = Integer.parseInt(strGo3);
@@ -118,43 +119,64 @@ public class NumToSpeech {
             Boolean hasTens = (strGo3.length() >= 2);
             
             /*** Xu ly hang tram ***/
-            if (hasHundreds) {
-                textFromGo3.add(textNum[hundreds]);
-                textFromGo3.add(textLevel1[2]); //trăm
-                if (tens == 0 && units !=0) {
-                    textFromGo3.add(specialWord0x); //lẻ
-                }
-            }
+            textFromGo3.addAll(hundredsToString(hasHundreds, hundreds, tens, units));
             /**********************/
             
             /*** Xu ly hang chuc ***/
-            if (tens > 1) {
-                textFromGo3.add(textNum[tens]);
-                textFromGo3.add(textLevel1[1]); //mươi
-            }
-            else if (tens == 1) {
-                textFromGo3.add(specialWord1x); //mười
-            }
+            textFromGo3.addAll(tensToString(hundreds, tens, units));
             /************************/
             
             /*** Xu ly hang don vi ***/
-            if (units > 0) {
-                if (tens >= 2 && (units == 1 || units == 4 || units == 5)) {
-                    textFromGo3.add(textSpecialNum1[units]);
-                }
-                else if (tens == 1 && units == 5) {
-                    textFromGo3.add(textSpecialNum1[units]);
-                }
-                else if (tens == 0 && units == 4) {
-                    textFromGo3.add(textSpecialNum1[units]);
-                }
-                else {
-                    textFromGo3.add(textNum[units]);
-                }
-            }
+            textFromGo3.addAll(unitsToString(hundreds, tens, units));
             /************************/
         }
         return textFromGo3;
+    }
+    
+    private static List<String> hundredsToString(Boolean has, Integer h, Integer t, Integer u) {
+        //Xu ly cho hang tram
+        List<String> strHundreds = new ArrayList<>();
+        if (has) {
+            strHundreds.add(textNum[h]);
+            strHundreds.add(textLevel1[2]); //trăm
+            if (t == 0 && u !=0) {
+                strHundreds.add(specialWord0x); //lẻ
+            }
+        }
+        return strHundreds;
+    }
+    
+    private static List<String> tensToString(Integer h, Integer t, Integer u) {
+        //Xu ly cho hang chuc
+        List<String> strTens = new ArrayList<>();
+        if (t > 1) {
+            strTens.add(textNum[t]);
+            strTens.add(textLevel1[1]); //mươi
+        }
+        else if (t == 1) {
+            strTens.add(specialWord1x); //mười
+        }
+        return strTens;
+    }
+    
+    private static List<String> unitsToString(Integer h, Integer t, Integer u) {
+        //Xu ly cho hang don vi
+        List<String> strUnits = new ArrayList<>();
+        if (u > 0) {
+            if (t >= 2 && (u == 1 || u == 4 || u == 5)) {
+                strUnits.add(textSpecialNum1[u]);
+            }
+            else if (t == 1 && u == 5) {
+                strUnits.add(textSpecialNum1[u]);
+            }
+            else if (t == 0 && u == 4) {
+                strUnits.add(textSpecialNum1[u]);
+            }
+            else {
+                strUnits.add(textNum[u]);
+            }
+        }
+        return strUnits;
     }
     
     public static void speakNumber(String text) throws MalformedURLException, JavaLayerException, UnsupportedEncodingException {
