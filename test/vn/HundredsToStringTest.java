@@ -31,11 +31,11 @@ public class HundredsToStringTest {
         this.expVal = expVal;
     }
     
-    @Parameterized.Parameters(name = "Case#{index}: {0}")
+    @Parameterized.Parameters(name = "Case#{index}: {0} - {1}")
     public static Collection data() throws IOException {
         URL url = UnitsToStringTest.class.getResource("/testdata/HundredsToString.tc");
-        CSVReader csvReader = new CSVReader(url.getPath());
-        return csvReader.getTestData();
+        TCReader tcReader = new TCReader(url.getPath());
+        return tcReader.getTestData();
     }
     
     @BeforeClass

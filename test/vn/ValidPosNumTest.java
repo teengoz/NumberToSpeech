@@ -32,11 +32,11 @@ public class ValidPosNumTest{
         this.expVal = Boolean.valueOf(expVal);
     }
     
-    @Parameters(name = "Case#{index}: {0}")
+    @Parameters(name = "Case#{index}: {0} - {1}")
     public static Collection data() throws IOException {
         URL url = ValidPosNumTest.class.getResource("/testdata/ValidPosNum.tc");
-        CSVReader csvReader = new CSVReader(url.getPath());
-        return csvReader.getTestData();
+        TCReader tcReader = new TCReader(url.getPath());
+        return tcReader.getTestData();
     }
     
     @BeforeClass

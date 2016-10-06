@@ -7,7 +7,6 @@ package vn;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -18,14 +17,14 @@ import java.util.List;
  *
  * @author Tee
  */
-public class CSVReader {
+public class TCReader {
     public String path;
     
-    public CSVReader() {
+    public TCReader() {
         this.path = "";
     }
     
-    public CSVReader(String path) {
+    public TCReader(String path) {
         this.path = path;
     }
     
