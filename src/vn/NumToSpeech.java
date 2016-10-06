@@ -117,7 +117,7 @@ public class NumToSpeech {
 
         //Xu ly cho hang tram
         String strHundreds = "";
-        if (length == 3 && numGo3 > 99) {
+        if (length == 3) {
             strHundreds = textNum[hundreds] + " " + textLevel1[2]; //"n" trăm
         }
         return strHundreds;
@@ -131,7 +131,7 @@ public class NumToSpeech {
 
         //Xu ly cho hang chuc
         String strTens = "";
-        if (length == 1 || numGo3 < 10) {
+        if (length == 1) {
             return strTens;
         }
         else if (tens > 1) {
