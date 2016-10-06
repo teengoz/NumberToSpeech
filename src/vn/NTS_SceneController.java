@@ -141,8 +141,8 @@ public class NTS_SceneController implements Initializable {
                 }
                 
                 //Xu ly chu so dau tien cua chuoi la 0
-                if (newValue.matches("^0+.*")) {
-                    newValue = newValue.replaceAll("^0+", "");
+                if (newValue.matches("^0+.*") && !newValue.matches("^0$")) {
+                    newValue = newValue.replaceAll("^0", "");
                     txtNum.setText(newValue);
                 }
                 
