@@ -44,13 +44,7 @@ public class NumToSpeech {
         return "Không hợp lệ";
     }
     
-    private static String numToText(String source) {
-        //Xu ly theo tung bo 9 de tuan hang don vi Ty
-        String textFromNum = go9ToText(source);
-        return textFromNum;
-    }
-    
-    public static String go9ToText(String source) {
+    public static String numToText(String source) {
         List<String> groups = stringToArray3(source);
         String textFromNum = "";
         for (int i = groups.size()-1; i >=0 ; i--) {
