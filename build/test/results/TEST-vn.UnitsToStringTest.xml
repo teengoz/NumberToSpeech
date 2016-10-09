@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Tee" name="vn.Go3ToTextTest" skipped="0" tests="34" time="0.132" timestamp="2016-10-09T08:53:17">
+<testsuite errors="0" failures="0" hostname="Tee" name="vn.UnitsToStringTest" skipped="0" tests="30" time="0.169" timestamp="2016-10-09T08:52:18">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -11,7 +11,7 @@
     <property name="manifest.custom.codebase" value="*" />
     <property name="javafx.signing.blob" value="false" />
     <property name="libs.spring-webmvc4.0.src" value="" />
-    <property name="javac.includes" value="vn/Go3ToTextTest.java" />
+    <property name="javac.includes" value="vn/UnitsToStringTest.java" />
     <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.1\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
     <property name="libs.jsp-compilation.javadoc" value="" />
@@ -47,7 +47,7 @@
     <property name="libs.hamcrest.classpath" value="C:\Program Files\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="libs.javac-api.javadoc" value="" />
     <property name="os.name" value="Windows 10" />
-    <property name="test.class" value="vn.Go3ToTextTest" />
+    <property name="test.class" value="vn.UnitsToStringTest" />
     <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 8.1\java\modules\ext\beansbinding-1.2.1.jar" />
     <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
     <property name="ap.proc.none.internal" value="" />
@@ -70,7 +70,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner vn.Go3ToTextTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\test\results\TEST-vn.Go3ToTextTest.xml crashfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junitvmwatcher4140687745841313636.properties propsfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junit8022877098048414284.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner vn.UnitsToStringTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\test\results\TEST-vn.UnitsToStringTest.xml crashfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junitvmwatcher3430312403088859581.properties propsfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junit3343895460447868786.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -96,7 +96,7 @@
     <property name="javafx.deploy.includeDT" value="true" />
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed" />
     <property name="libs.groovy-all.src" value="" />
-    <property name="test.includes" value="vn/Go3ToTextTest.java" />
+    <property name="test.includes" value="vn/UnitsToStringTest.java" />
     <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 8.1\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.1\platform\core\core-base.jar;C:\Program Files\NetBeans 8.1\platform\core\core.jar;C:\Program Files\NetBeans 8.1\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.1\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.1\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 8.1\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 8.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
     <property name="jnlp.enabled" value="false" />
     <property name="java.vm.specification.version" value="1.8" />
@@ -117,7 +117,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
-    <property name="javac.includesfile.binary" value="E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\null1898370695" />
+    <property name="javac.includesfile.binary" value="E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\null1221954639" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="C:\Program Files\Java\jdk1.8.0_102\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_102\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_102\jre/lib/plugin.jar:E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\jlayer1.0.1\JLayer1.0.1\jl1.0.1.jar:build/classes:C:\Program Files\NetBeans 8.1\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -131,7 +131,7 @@
     <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
     <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 8.1\ide\docs\jaxb-api-doc.zip" />
     <property name="libs.struts.classpath" value="C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans 8.1\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
-    <property name="javac.includes.binary" value="E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\test\classes\vn\Go3ToTextTest.class" />
+    <property name="javac.includes.binary" value="E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\test\classes\vn\UnitsToStringTest.class" />
     <property name="ant.home" value="C:\Program Files\NetBeans 8.1\extide\ant" />
     <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 8.1\platform\docs\junit-4.12-sources.jar" />
     <property name="javafx.run.height" value="600" />
@@ -446,41 +446,37 @@
     <property name="javafx.deploy.installpermanently" value="false" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.1\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#0: 0 - không]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#1: 1 - một]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#2: 2 - hai]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#3: 5 - năm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#4: 9 - chín]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#5: 10 - mười]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#6: 20 - hai mươi]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#7: 90 - chín mươi]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#8: 11 - mười một]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#9: 21 - hai mươi mốt]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#10: 91 - chín mươi mốt]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#11: 15 - mười lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#12: 25 - hai mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#13: 95 - chín mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#14: 53 - năm mươi ba]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#15: 84 - tám mươi bốn]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#16: 99 - chín mươi chín]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#17: 000 - ]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#18: 005 - không trăm lẻ năm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#19: 010 - không trăm mười]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#20: 100 - một trăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#21: 110 - một trăm mười]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#22: 120 - một trăm hai mươi]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#23: 190 - một trăm chín mươi]" time="0.031" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#24: 101 - một trăm lẻ một]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#25: 111 - một trăm mười một]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#26: 121 - một trăm hai mươi mốt]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#27: 191 - một trăm chín mươi mốt]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#28: 105 - một trăm lẻ năm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#29: 115 - một trăm mười lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#30: 125 - một trăm hai mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#31: 195 - một trăm chín mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#32: 578 - năm trăm bảy mươi tám]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#33: 999 - chín trăm chín mươi chín]" time="0.0" />
-  <system-out><![CDATA[- Chuc nang chuyen so cho Nhom 3 chu so
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#0: 0 - không]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#1: 1 - một]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#2: 2 - hai]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#3: 3 - ba]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#4: 4 - bốn]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#5: 5 - năm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#6: 6 - sáu]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#7: 7 - bảy]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#8: 8 - tám]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#9: 9 - chín]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#10: 10 - ]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#11: 20 - ]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#12: 90 - ]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#13: 11 - một]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#14: 21 - mốt]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#15: 91 - mốt]" time="0.015" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#16: 15 - lăm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#17: 25 - lăm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#18: 95 - lăm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#19: 101 - một]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#20: 111 - một]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#21: 121 - mốt]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#22: 191 - mốt]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#23: 105 - năm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#24: 115 - lăm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#25: 125 - lăm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#26: 195 - lăm]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#27: 110 - ]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#28: 120 - ]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#29: 190 - ]" time="0.0" />
+  <system-out><![CDATA[- Chuc nang chuyen so hang DON VI
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

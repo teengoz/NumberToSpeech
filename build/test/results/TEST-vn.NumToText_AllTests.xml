@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Tee" name="vn.NumToText_AllTests" skipped="0" tests="181" time="0.523" timestamp="2016-10-06T17:14:19">
+<testsuite errors="0" failures="0" hostname="Tee" name="vn.NumToText_AllTests" skipped="0" tests="183" time="0.617" timestamp="2016-10-09T08:47:45">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -70,7 +70,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner vn.NumToText_AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\test\results\TEST-vn.NumToText_AllTests.xml crashfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junitvmwatcher167321419153084723.properties propsfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junit8219501518915994493.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner vn.NumToText_AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\test\results\TEST-vn.NumToText_AllTests.xml crashfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junitvmwatcher5211018737878541942.properties propsfile=E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\build\junit4134874832887080070.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -117,7 +117,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
-    <property name="javac.includesfile.binary" value="E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\null1167851011" />
+    <property name="javac.includesfile.binary" value="E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\Main\null379451981" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value="C:\Program Files\Java\jdk1.8.0_102\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.8.0_102\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.8.0_102\jre/lib/plugin.jar:E:\My_Works\Dai_Hoc\KiemThuPhanMem\BT1-NumberToSpeech\NumberToSpeech\jlayer1.0.1\JLayer1.0.1\jl1.0.1.jar:build/classes:C:\Program Files\NetBeans 8.1\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.1\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -138,7 +138,7 @@
     <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 8.1\platform\modules\ext\testng-6.8.1-dist.jar" />
     <property name="libs.absolutelayout.maven-pom" value="" />
     <property name="ant.java.version" value="1.8" />
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\windows\system32;C:\windows\;E:\Localhost\OpenServer\modules\php\PHP-5.6;C:\ProgramData\ComposerSetup\bin;C:\Ruby22-x64\bin;C:\Ruby23-x64\bin;E:\Localhost\OpenServer\modules\Composer;C:\windows\system32;C:\windows\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Tee\AppData\Roaming\npm;C:\Program Files\IBM\SDP\cordova_cli;C:\Users\Tee\AppData\Local\Microsoft\WindowsApps;C:\Users\Tee\AppData\Roaming\Composer\vendor\bin;." />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows\;E:\Localhost\OpenServer\modules\php\PHP-5.6;C:\ProgramData\ComposerSetup\bin;C:\Ruby22-x64\bin;C:\Ruby23-x64\bin;E:\Localhost\OpenServer\modules\Composer;C:\windows\system32;C:\windows\;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\Tee\AppData\Roaming\npm;C:\Program Files\IBM\SDP\cordova_cli;C:\Users\Tee\AppData\Local\Microsoft\WindowsApps;C:\Users\Tee\AppData\Roaming\Composer\vendor\bin;." />
     <property name="javadoc.author" value="false" />
     <property name="libs.metro.maven-pom" value="" />
     <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
@@ -446,12 +446,12 @@
     <property name="javafx.deploy.installpermanently" value="false" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.1\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#0:  - FALSE]" time="0.003" />
+  <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#0:  - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#1: abc - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#2: 1abc - FALSE]" time="0.0" />
-  <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#3: a1bc - FALSE]" time="0.001" />
+  <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#3: a1bc - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#4: abc1 - FALSE]" time="0.0" />
-  <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#5: 1abc1 - FALSE]" time="0.001" />
+  <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#5: 1abc1 - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#6: 0 - TRUE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#7: 0abc - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#8: 0123 - FALSE]" time="0.0" />
@@ -459,7 +459,7 @@
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#10: -01 - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#11: 0123 - FALSE]" time="0.0" />
   <testcase classname="vn.ValidPosNumTest" name="testValidPosNum[Case#12: 123 - TRUE]" time="0.0" />
-  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#0: 0 - không]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#0: 0 - không]" time="0.015" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#1: 1 - một]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#2: 2 - hai]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#3: 3 - ba]" time="0.0" />
@@ -471,15 +471,15 @@
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#9: 9 - chín]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#10: 10 - ]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#11: 20 - ]" time="0.0" />
-  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#12: 90 - ]" time="0.022" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#12: 90 - ]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#13: 11 - một]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#14: 21 - mốt]" time="0.0" />
-  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#15: 91 - mốt]" time="0.003" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#15: 91 - mốt]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#16: 15 - lăm]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#17: 25 - lăm]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#18: 95 - lăm]" time="0.0" />
-  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#19: 101 - một]" time="0.001" />
-  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#20: 111 - một]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#19: 101 - một]" time="0.0" />
+  <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#20: 111 - một]" time="0.015" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#21: 121 - mốt]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#22: 191 - mốt]" time="0.0" />
   <testcase classname="vn.UnitsToStringTest" name="testUnitsToString[Case#23: 105 - năm]" time="0.0" />
@@ -494,33 +494,39 @@
   <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#2: 2 - ]" time="0.0" />
   <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#3: 9 - ]" time="0.0" />
   <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#4: 10 - mười]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#5: 11 - mười]" time="0.001" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#5: 19 - mười]" time="0.0" />
   <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#6: 20 - hai mươi]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#7: 21 - hai mươi]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#7: 29 - hai mươi]" time="0.0" />
   <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#8: 90 - chín mươi]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#9: 91 - chín mươi]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#10: 100 - ]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#11: 105 - lẻ]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#12: 115 - mười]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#13: 120 - hai mươi]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#14: 125 - hai mươi]" time="0.0" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#15: 190 - chín mươi]" time="0.001" />
-  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#16: 195 - chín mươi]" time="0.001" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#9: 99 - chín mươi]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#10: 000 - ]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#11: 005 - lẻ]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#12: 010 - mười]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#13: 100 - ]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#14: 105 - lẻ]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#15: 115 - mười]" time="0.016" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#16: 120 - hai mươi]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#17: 125 - hai mươi]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#18: 190 - chín mươi]" time="0.0" />
+  <testcase classname="vn.TensToStringTest" name="testUnitsToString[Case#19: 195 - chín mươi]" time="0.0" />
   <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#0: 0 - ]" time="0.0" />
   <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#1: 1 - ]" time="0.0" />
   <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#2: 2 - ]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#3: 5 - ]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#4: 9 - ]" time="0.079" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#3: 5 - ]" time="0.016" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#4: 9 - ]" time="0.0" />
   <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#5: 11 - ]" time="0.0" />
   <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#6: 25 - ]" time="0.0" />
   <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#7: 99 - ]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#8: 100 - một trăm]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#9: 178 - một trăm]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#10: 200 - hai trăm]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#11: 215 - hai trăm]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#12: 900 - chín trăm]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#13: 901 - chín trăm]" time="0.0" />
-  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#14: 999 - chín trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#8: 000 - không trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#9: 005 - không trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#10: 010 - không trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#11: 100 - một trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#12: 178 - một trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#13: 200 - hai trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#14: 215 - hai trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#15: 900 - chín trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#16: 901 - chín trăm]" time="0.0" />
+  <testcase classname="vn.HundredsToStringTest" name="testUnitsToString[Case#17: 999 - chín trăm]" time="0.0" />
   <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#0: 0 - không]" time="0.0" />
   <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#1: 1 - một]" time="0.0" />
   <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#2: 2 - hai]" time="0.0" />
@@ -528,105 +534,101 @@
   <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#4: 9 - chín]" time="0.0" />
   <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#5: 10 - mười]" time="0.0" />
   <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#6: 20 - hai mươi]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#7: 11 - mười một]" time="0.001" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#8: 21 - hai mươi mốt]" time="0.001" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#9: 15 - mười lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#10: 25 - hai mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#11: 99 - chín mươi chín]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#12: 100 - một trăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#13: 110 - một trăm mười]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#14: 120 - một trăm hai mươi]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#15: 190 - một trăm chín mươi]" time="0.001" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#16: 101 - một trăm lẻ một]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#17: 111 - một trăm mười một]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#18: 121 - một trăm hai mươi mốt]" time="0.001" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#19: 191 - một trăm chín mươi mốt]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#20: 105 - một trăm lẻ năm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#21: 115 - một trăm mười lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#22: 125 - một trăm hai mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#23: 195 - một trăm chín mươi lăm]" time="0.0" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#24: 578 - năm trăm bảy mươi tám]" time="0.021" />
-  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#25: 999 - chín trăm chín mươi chín]" time="0.001" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#7: 90 - chín mươi]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#8: 11 - mười một]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#9: 21 - hai mươi mốt]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#10: 91 - chín mươi mốt]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#11: 15 - mười lăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#12: 25 - hai mươi lăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#13: 95 - chín mươi lăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#14: 53 - năm mươi ba]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#15: 84 - tám mươi bốn]" time="0.001" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#16: 99 - chín mươi chín]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#17: 000 - ]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#18: 005 - không trăm lẻ năm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#19: 010 - không trăm mười]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#20: 100 - một trăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#21: 110 - một trăm mười]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#22: 120 - một trăm hai mươi]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#23: 190 - một trăm chín mươi]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#24: 101 - một trăm lẻ một]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#25: 111 - một trăm mười một]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#26: 121 - một trăm hai mươi mốt]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#27: 191 - một trăm chín mươi mốt]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#28: 105 - một trăm lẻ năm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#29: 115 - một trăm mười lăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#30: 125 - một trăm hai mươi lăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#31: 195 - một trăm chín mươi lăm]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#32: 578 - năm trăm bảy mươi tám]" time="0.0" />
+  <testcase classname="vn.Go3ToTextTest" name="testUnitsToString[Case#33: 999 - chín trăm chín mươi chín]" time="0.0" />
   <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#0:  - Không hợp lệ]" time="0.0" />
   <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#1: abc - Không hợp lệ]" time="0.0" />
   <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#2: 1abc - Không hợp lệ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#3: a1bc - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#3: a1bc - Không hợp lệ]" time="0.115" />
   <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#4: abc1 - Không hợp lệ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#5: 1abc1 - Không hợp lệ]" time="0.059" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#6: 0 - Không]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#7: 0abc - Không hợp lệ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#8: 0123 - Không hợp lệ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#9: -1 - Không hợp lệ]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#10: -01 - Không hợp lệ]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#11: 123 - Một trăm hai mươi ba]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#12: 0 - Không]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#13: 1 - Một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#14: 2 - Hai]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#15: 3 - Ba]" time="0.002" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#16: 4 - Bốn]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#17: 5 - Năm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#18: 6 - Sáu]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#19: 7 - Bảy]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#20: 8 - Tám]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#21: 9 - Chín]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#22: 10 - Mười]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#23: 11 - Mười một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#24: 12 - Mười hai]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#25: 13 - Mười ba]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#26: 14 - Mười bốn]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#27: 15 - Mười lăm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#28: 16 - Mười sáu]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#29: 17 - Mười bảy]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#30: 18 - Mười tám]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#31: 19 - Mười chín]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#32: 20 - Hai mươi]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#33: 21 - Hai mươi mốt]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#34: 25 - Hai mươi lăm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#35: 100 - Một trăm]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#36: 101 - Một trăm lẻ một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#37: 105 - Một trăm lẻ năm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#38: 110 - Một trăm mười]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#39: 111 - Một trăm mười một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#40: 115 - Một trăm mười lăm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#41: 120 - Một trăm hai mươi]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#42: 121 - Một trăm hai mươi mốt]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#43: 125 - Một trăm hai mươi lăm]" time="0.082" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#44: 208 - Hai trăm lẻ tám]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#45: 372 - Ba trăm bảy mươi hai]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#46: 999 - Chín trăm chín mươi chín]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#47: 1000 - Một ngàn]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#48: 1001 - Một ngàn không trăm lẻ một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#49: 1100 - Một ngàn một trăm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#50: 1010 - Một ngàn không trăm mười]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#51: 1011 - Một ngàn không trăm mười một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#52: 1101 - Một ngàn một trăm lẻ một]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#53: 1110 - Một ngàn một trăm mười]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#54: 1020 - Một ngàn không trăm hai mươi]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#55: 1005 - Một ngàn không trăm lẻ năm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#56: 1015 - Một ngàn không trăm mười lăm]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#57: 1011 - Một ngàn không trăm mười một]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#58: 1021 - Một ngàn không trăm hai mươi mốt]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#59: 1000215 - Một triệu hai trăm mười lăm]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#60: 1001215 - Một triệu không trăm lẻ một ngàn hai trăm mười lăm]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#61: 1010215 - Một triệu không trăm mười ngàn hai trăm mười lăm]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#62: 1100215 - Một triệu một trăm ngàn hai trăm mười lăm]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#63: 1904000 - Một triệu chín trăm lẻ bốn ngàn]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#64: 1021001 - Một triệu không trăm hai mươi mốt ngàn không trăm lẻ một]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#65: 1621010 - Một triệu sáu trăm hai mươi mốt ngàn không trăm mười]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#66: 1825100 - Một triệu tám trăm hai mươi lăm ngàn một trăm]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#67: 1000 - Một ngàn]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#68: 10000 - Mười ngàn]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#69: 100000 - Một trăm ngàn]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#70: 1000000 - Một triệu]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#71: 10000000 - Mười triệu]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#72: 100000000 - Một trăm triệu]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#73: 1000000000 - Một tỷ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#74: 10000000000 - Mười tỷ]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#75: 100000000000 - Một trăm tỷ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#76: 1000000000000 - Một ngàn tỷ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#77: 1000000000000000 - Một triệu tỷ]" time="0.001" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#78: 1000000000000000000 - Một tỷ tỷ]" time="0.0" />
-  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#79: 1000000000000000000000000000000000000 - Một tỷ tỷ tỷ tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#5: 1abc1 - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#6: 0abc - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#7: 0123 - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#8: -1 - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#9: -01 - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#10: 000 - Không hợp lệ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#11: 0 - Không]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#12: 1 - Một]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#13: 2 - Hai]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#14: 3 - Ba]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#15: 4 - Bốn]" time="0.016" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#16: 5 - Năm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#17: 6 - Sáu]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#18: 7 - Bảy]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#19: 8 - Tám]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#20: 9 - Chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#21: 100 - Một trăm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#22: 110 - Một trăm mười]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#23: 120 - Một trăm hai mươi]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#24: 101 - Một trăm lẻ một]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#25: 111 - Một trăm mười một]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#26: 121 - Một trăm hai mươi mốt]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#27: 105 - Một trăm lẻ năm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#28: 115 - Một trăm mười lăm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#29: 125 - Một trăm hai mươi lăm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#30: 1000 - Một ngàn]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#31: 1001 - Một ngàn không trăm lẻ một]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#32: 1010 - Một ngàn không trăm mười]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#33: 1011 - Một ngàn không trăm mười một]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#34: 1100 - Một ngàn một trăm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#35: 1101 - Một ngàn một trăm lẻ một]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#36: 1110 - Một ngàn một trăm mười]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#37: 1115 - Một ngàn một trăm mười lăm]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#38: 1789 - Một ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#39: 1000000 - Một triệu]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#40: 1000789 - Một triệu bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#41: 1001789 - Một triệu không trăm lẻ một ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#42: 1010789 - Một triệu không trăm mười ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#43: 1021789 - Một triệu không trăm hai mươi mốt ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#44: 1100789 - Một triệu một trăm ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#45: 1115789 - Một triệu một trăm mười lăm ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#46: 1456789 - Một triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#47: 1000000000 - Một tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#48: 1000456789 - Một tỷ bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#49: 1001456789 - Một tỷ không trăm lẻ một triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#50: 1010456789 - Một tỷ không trăm mười triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#51: 1021456789 - Một tỷ không trăm hai mươi mốt triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#52: 1100456789 - Một tỷ một trăm triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#53: 1115456789 - Một tỷ một trăm mười lăm triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#54: 1123456789 - Một tỷ một trăm hai mươi ba triệu bốn trăm năm mươi sáu ngàn bảy trăm tám mươi chín]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#55: 1000 - Một ngàn]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#56: 10000 - Mười ngàn]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#57: 100000 - Một trăm ngàn]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#58: 1000000 - Một triệu]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#59: 10000000 - Mười triệu]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#60: 100000000 - Một trăm triệu]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#61: 1000000000 - Một tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#62: 10000000000 - Mười tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#63: 100000000000 - Một trăm tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#64: 1000000000000 - Một ngàn tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#65: 1000000000000000 - Một triệu tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#66: 1000000000000000000 - Một tỷ tỷ]" time="0.0" />
+  <testcase classname="vn.GetTextTest" name="testUnitsToString[Case#67: 1000000000000000000000000000000000000 - Một tỷ tỷ tỷ tỷ]" time="0.0" />
   <system-out><![CDATA[- Chuc nang kiem tra chuoi so hop le
 - Chuc nang chuyen so hang DON VI
 - Chuc nang chuyen so hang CHUC

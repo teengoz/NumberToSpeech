@@ -1,0 +1,80 @@
+﻿,Không hợp lệ
+abc,Không hợp lệ
+1abc,Không hợp lệ
+a1bc,Không hợp lệ
+abc1,Không hợp lệ
+1abc1,Không hợp lệ
+0,Không
+0abc,Không hợp lệ
+0123,Không hợp lệ
+-1,Không hợp lệ
+-01,Không hợp lệ
+123,Một trăm hai mươi ba
+0,Không
+1,Một
+2,Hai
+3,Ba
+4,Bốn
+5,Năm
+6,Sáu
+7,Bảy
+8,Tám
+9,Chín
+10,Mười
+11,Mười một
+12,Mười hai
+13,Mười ba
+14,Mười bốn
+15,Mười lăm
+16,Mười sáu
+17,Mười bảy
+18,Mười tám
+19,Mười chín
+20,Hai mươi
+21,Hai mươi mốt
+25,Hai mươi lăm
+100,Một trăm
+101,Một trăm lẻ một
+105,Một trăm lẻ năm
+110,Một trăm mười
+111,Một trăm mười một
+115,Một trăm mười lăm
+120,Một trăm hai mươi
+121,Một trăm hai mươi mốt
+125,Một trăm hai mươi lăm
+208,Hai trăm lẻ tám
+372,Ba trăm bảy mươi hai
+999,Chín trăm chín mươi chín
+1000,Một ngàn
+1001,Một ngàn không trăm lẻ một
+1100,Một ngàn một trăm
+1010,Một ngàn không trăm mười
+1011,Một ngàn không trăm mười một
+1101,Một ngàn một trăm lẻ một
+1110,Một ngàn một trăm mười
+1020,Một ngàn không trăm hai mươi
+1005,Một ngàn không trăm lẻ năm
+1015,Một ngàn không trăm mười lăm
+1011,Một ngàn không trăm mười một
+1021,Một ngàn không trăm hai mươi mốt
+1000215,Một triệu hai trăm mười lăm
+1001215,Một triệu không trăm lẻ một ngàn hai trăm mười lăm
+1010215,Một triệu không trăm mười ngàn hai trăm mười lăm
+1100215,Một triệu một trăm ngàn hai trăm mười lăm
+1904000,Một triệu chín trăm lẻ bốn ngàn
+1021001,Một triệu không trăm hai mươi mốt ngàn không trăm lẻ một
+1621010,Một triệu sáu trăm hai mươi mốt ngàn không trăm mười
+1825100,Một triệu tám trăm hai mươi lăm ngàn một trăm
+1000,Một ngàn
+10000,Mười ngàn
+100000,Một trăm ngàn
+1000000,Một triệu
+10000000,Mười triệu
+100000000,Một trăm triệu
+1000000000,Một tỷ
+10000000000,Mười tỷ
+100000000000,Một trăm tỷ
+1000000000000,Một ngàn tỷ
+1000000000000000,Một triệu tỷ
+1000000000000000000,Một tỷ tỷ
+1000000000000000000000000000000000000,Một tỷ tỷ tỷ tỷ
